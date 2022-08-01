@@ -14,9 +14,9 @@
 
 <h2 align="left">💻 깃허브 정보</h2>
 
-[![streak](https://github-readme-streak-stats.herokuapp.com/?user=seunghyeok2915&theme=calm)](https://github.com/bossxz)
+[![streak](https://github-readme-streak-stats.herokuapp.com/?user=bossxz&theme=calm)](https://github.com/bossxz)
 
-[![bossxz's github stats](https://github-readme-stats.vercel.app/api?username=seunghyeok2915&show_icons=true&theme=dracula)](https://github.com/bossxz)
+[![bossxz's github stats](https://github-readme-stats.vercel.app/api?username=bossxz&show_icons=true&theme=dracula)](https://github.com/bossxz)
 
 <a href="https://opgc.me/#/users/bossxz" target="_blank"><img src="https://api.opgc.me/githubs/users/bossxz/tag/?theme=basic" /></a>
 
