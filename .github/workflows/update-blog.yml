@@ -1,0 +1,37 @@
+name: Update blog posts
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 0 * * *'
+  push:
+    branches: [main]
+    paths:
+      - scripts/update_blog.py
+      - .github/workflows/update-blog.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-blog-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+      - name: Read public blog RSS
+        run: python3 scripts/update_blog.py
+      - name: Commit changed posts
+        run: |
+          if git diff --quiet -- README.md; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md
+          git commit -m 'docs: update latest blog posts'
+          git push origin HEAD:main
