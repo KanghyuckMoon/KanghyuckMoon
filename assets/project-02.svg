@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 160" role="img" aria-labelledby="title desc">
+<title id="title">Project 02 — Preparing</title><desc id="desc">Placeholder cover for a future project. This is not a gameplay screenshot.</desc>
+<rect width="960" height="160" rx="12" fill="#101C2D"/><rect x="1" y="1" width="958" height="158" rx="11" fill="none" stroke="#2C3C51"/>
+<rect x="32" y="32" width="96" height="96" rx="16" fill="#1C2B40"/><text x="80" y="98" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="48" font-weight="700" fill="#93C5FD">02</text>
+<g font-family="Segoe UI,Arial,sans-serif"><text x="158" y="58" font-size="11" letter-spacing="3" fill="#93C5FD">SELECTED PROJECT</text><text x="158" y="95" font-size="27" font-weight="600" fill="#E2E8F0">Preparing</text><text x="158" y="121" font-size="13" fill="#8296AF">A new project story is on its way.</text></g>
+<g transform="translate(755 38)" fill="none" stroke="#93C5FD" opacity="0.55" stroke-width="1.5"><path d="m40 0 44 25v50L40 100-4 75V25Z"/><path d="m-4 25 44 25 44-25M40 50v50M40 0v28M15 36l25-14 25 14"/></g>
+</svg>
