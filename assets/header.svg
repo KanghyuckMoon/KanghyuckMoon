@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 260" role="img" aria-labelledby="title desc">
+<title id="title">Kanghyuck Moon — Unity / C# Developer</title>
+<desc id="desc">Dark navy profile banner with mint accents, a code window, and an abstract circuit.</desc>
+<defs><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#243347" stroke-width="0.5"/></pattern><linearGradient id="bg"><stop stop-color="#0D1726"/><stop offset="1" stop-color="#15293A"/></linearGradient></defs>
+<rect width="960" height="260" rx="18" fill="url(#bg)"/><rect width="960" height="260" rx="18" fill="url(#grid)"/>
+<path d="M640 216h92v-32h90v-42h78M716 46h82v34h92" fill="none" stroke="#2B6470" stroke-width="2"/>
+<g fill="#5EEAD4"><circle cx="640" cy="216" r="4"/><circle cx="900" cy="142" r="4"/><circle cx="716" cy="46" r="4"/><circle cx="890" cy="80" r="4"/></g>
+<rect x="48" y="48" width="4" height="164" rx="2" fill="#5EEAD4"/>
+<g font-family="Segoe UI,Arial,sans-serif"><text x="72" y="76" fill="#5EEAD4" font-size="12" letter-spacing="3">CODE / PLAY / EXPLORE</text><text x="70" y="133" fill="#F1F5F9" font-size="44" font-weight="700">Kanghyuck Moon</text><text x="72" y="170" fill="#B7C9D9" font-size="20">Unity / C# Developer</text><text x="72" y="205" fill="#7894AA" font-size="13">Building games. Learning beyond the screen.</text></g>
+<rect x="623" y="74" width="248" height="125" rx="12" fill="#0B1624" stroke="#345165"/>
+<circle cx="644" cy="92" r="3" fill="#64748B"/><circle cx="656" cy="92" r="3" fill="#64748B"/><circle cx="668" cy="92" r="3" fill="#5EEAD4"/>
+<path d="M623 107h248" stroke="#253B4D"/>
+<g font-family="Consolas,monospace" font-size="14"><text x="644" y="133" fill="#93C5FD">void Start()</text><text x="644" y="157" fill="#B7C9D9">{</text><text x="660" y="157" fill="#5EEAD4">Build(); Explore();</text><text x="644" y="181" fill="#B7C9D9">}</text></g>
+</svg>
